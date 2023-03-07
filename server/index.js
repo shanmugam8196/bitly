@@ -44,12 +44,12 @@ app.post('/add',(request,response)=>{
     })
 })
 
-// app.post('/Add',(request,response)=>{
-//     let {firstname,lastname} = request.body;
-    
-//     let sql = 'insert into stu(firstname,lastname)values(?,?)';
+// app.get('/Add',(request,response)=>{
 
-//     c.query(sql,[firstname,lastname],(error,result)=>{
+    
+//     let sql = 'select * from stu';
+
+//     c.query(sql,(error,result)=>{
 //         if(error){
 //             let s = {"status":"error"};
 //             response.send(s);
